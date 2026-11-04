@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#03040a">
+  <meta name="description" content="Midnight Birthday — A magical birthday surprise by 4U celebrations">
+  <title>Mohamed♡Sandy</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="midnight-page">
+
+  <!-- Cinematic intro -->
+  <section class="intro" id="intro" aria-label="Birthday countdown">
+    <div class="intro-stars" id="introStars" aria-hidden="true"></div>
+    <div class="shooting-stars-layer" id="introShootingStars" aria-hidden="true"></div>
+    <div class="intro-vignette"></div>
+
+    <div class="intro-content">
+<!--      
+      <p class="intro-eyebrow" data-ar="هناك مفاجأة تنتظرك" data-en="SOMETHING IS WAITING FOR YOU">
+        هناك مفاجأة تنتظرك
+      </p>
+-->
+      <div class="countdown-number" id="countdownNumber" aria-live="polite">5</div>
+<!--
+      <p class="intro-caption" id="introCaption"
+         data-ar="استعد للحظة لا تُنسى"
+         data-en="GET READY FOR AN UNFORGETTABLE MOMENT">
+        استعد للحظة لا تُنسى
+      </p>
+-->
+    </div>
+
+    <!-- The only illuminated object before the reveal -->
+    <button class="mystery-gift" id="mysteryGift"
+            type="button"
+            aria-label="افتح الهدية"
+            data-ar-label="افتح الهدية"
+            data-en-label="Open the gift"
+            aria-describedby="giftInstruction">
+
+      <span class="gift-halo"></span>
+      <span class="gift-light-rays"></span>
+
+      <span class="mystery-gift-box">
+        <span class="gift-base">
+          <span class="gift-front-ribbon"></span>
+          <span class="gift-front-shine"></span>
+        </span>
+
+        <span class="gift-lid" id="giftLid">
+          <span class="gift-lid-ribbon"></span>
+          <span class="gift-bow gift-bow-left"></span>
+          <span class="gift-bow gift-bow-right"></span>
+          <span class="gift-bow-knot"></span>
+        </span>
+      </span>
+    </button>
+
+    <p class="gift-instruction" id="giftInstruction"
+       data-ar="افتح الصندوق"
+       data-en="Open the box">
+        افتح الصندوق
+    </p>
+
+    <p class="intro-bottom-mark">4U <span>CELEBRATIONS</span></p>
+  </section>
+
+  <!-- Main website header -->
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="https://mohvmed-imvm.github.io/4U-celebration/" aria-label="4U celebrations home">
+      <span class="brand-mark">4U</span>
+      <span class="brand-name">celebrations</span>
+    </a>
+  </header>
+
+
+  <!-- About template modal -->
+  <div class="modal-overlay" id="aboutModal" aria-hidden="true">
+    <section class="about-modal" role="dialog" aria-modal="true"
+             aria-labelledby="aboutTitle">
+
+      <button class="modal-close" id="closeModal" type="button"
+              aria-label="إغلاق" data-ar-label="إغلاق" data-en-label="Close">
+        ×
+      </button>
+
+      <span class="modal-brand">4U celebrations</span>
+
+      <h2 id="aboutTitle" data-ar="عن النموذج" data-en="About this template">
+        عن النموذج
+      </h2>
+
+      <p data-ar="ده نموذج تجريبي لصفحة عيد ميلاد من 4U celebrations. الاسم والصور والرسالة والألوان والموسيقى والتفاصيل قابلة للتخصيص حسب طلبك."
+         data-en="This is a demo birthday page by 4U celebrations. The name, photos, message, colors, music, and other details can be customized for your order.">
+        ده نموذج تجريبي لصفحة عيد ميلاد من 4U celebrations. الاسم والصور والرسالة والألوان والموسيقى والتفاصيل قابلة للتخصيص حسب طلبك.
+      </p>
+
+      <a class="modal-order-button" id="modalOrderButton"
+         href="#customization"
+         data-scroll-customization
+         data-ar="اطلب موقعك دلوقتي" data-en="Order your site now">
+        اطلب موقعك دلوقتي
+      </a>
+    </section>
+  </div>
+
+
+  <!-- Main birthday experience -->
+  <main class="main-content" id="mainContent">
+  <div class="shooting-stars-layer" id="pageShootingStars" aria-hidden="true"></div>
+
+    <div class="ambient-background" aria-hidden="true">
+      <div class="ambient-orb orb-one"></div>
+      <div class="ambient-orb orb-two"></div>
+      <div class="ambient-orb orb-three"></div>
+      <div class="ambient-grid"></div>
+    </div>
+
+    <div class="particles-layer" id="particlesLayer" aria-hidden="true"></div>
+    <div class="confetti-layer" id="confettiLayer" aria-hidden="true"></div>
+
+    <section class="birthday-hero" id="birthdayHero">
+
+
+
+
+
+      <p class="birthday-subtitle" id="birthdaySubtitle">
+ممكن تنزل تحت شويه؟
+      </p>
+
+      <div class="hero-divider" aria-hidden="true">
+        <span></span><i>✦</i><span></span>
+      </div>
+
+    </section>
+
+
+    <!-- Creative photo constellation -->
+    <section class="memory-section" id="memorySection">
+
+
+
+      <div class="memory-gallery">
+
+        <figure class="memory-card memory-card-main">
+          <div class="memory-photo-wrap">
+            <img src="photo1.jpg"
+                 alt="ذكرى مميزة"
+                 class="memory-photo"
+                 loading="lazy">
+            <span class="photo-glint"></span>
+          </div>
+        </figure>
+
+        <div class="gallery-decoration gallery-star star-one" aria-hidden="true">✦</div>
+        <div class="gallery-decoration gallery-star star-two" aria-hidden="true">✧</div>
+        <div class="gallery-decoration gallery-ring" aria-hidden="true"></div>
+      </div>
+
+    </section>
+
+
+    <!-- Birthday message -->
+    <section class="birthday-message-section" id="messageSection">
+
+      <div class="message-decoration" aria-hidden="true">✦</div>
+
+      <div class="message-card" id="messageCard">
+
+
+        <p class="personal-message" id="personalMessage">
+
+انهارده عيد ميلادك عيد ميلاد اكتر شخص بحبو ف الدنيا دي كلها كل سنه وانت حبيبي وروحي واجمل حاجه حصلتلي كل سنه وانت معايا وفي حياتي. 
+مش عارفه ابدأ كلامي منين ولا اوصفلك قد ايه انا بحبك وقد ايه وجودك في حياتي فارق معايا بس كل ال اعرف اقولو انك مش مجرد شخص بحبه انت حياتي كلها واجمل حاجه حصلتلي ف عمري كلو وشخص مهما اتكلم عنو مش هعرف اوفيه حقو بجد.
+احنا مرينا بحاجات كتير حاجات كانت صعبه وتقيله علينا اوي واوقات مكنش سهل علينا نكمل بس رغم كل حاجه ورغم كل الظروف قدرنا واختارنا اننا نعدي ونطلع من كل ده متمسكين ببعض وبنحب بعض اكتر وده بالنسبالي من اجمل الحاجات ال حصلت بينا ان كل ال عدينا بيه مخلاش حبنا يقل بالعكس خلانا نعرف قيمه بعض اكتر ودي حاجه انا دايما هفضل فكراها لينا.
+انا عايزاك تعرف اني عمري ما هنسي وقفتك جمبي ولا كل مره كنت فيها سند ليا ولا كل مره احتويتني فيها وانا مش احسن نسخه من نفسي مش هنسى انك حبتني بعيوبي قبل مميزاتي وتقبلتني بكل غلطاتي وصبرت عليا في اوقات كتير وفضلت متمسك بيا رغم ان كان اسهل حاجه تعملها تسيبني وتمشي.
+انت خلتني احس اني كويسه من تاني ورجعتلي فرحتي وضحكتي من تاني ولأول احس اني فعلا مرتاحه انا حسيت بكل حاجه حلوه معاك انت.
+انا عارفة اني مش مثاليه واني غلطت كتير ويمكن قصرت معاك وجيت عليك من غير ما اقصد كتير بس والله انت غالي عندي اوي وحبك في قلبي اكبر من اي كلام ممكن اقوله ونفسي دايما اكون الشخص ال يفرحك ويطمن قلبك ويعوضك عن اي حاجه وحشة شوفتها اتمني بجد اقدر اعمل ده.
+انت شخص جميل اوي وقلبك يستاهل كل الحب والفرحه والراحه ال ف الدنيا كلها وانا بجد بتمنى أشوفك دايما مبسوط وناجح ومحقق كل حاجه نفسك فيها وافضل جنبك في كل خطوه ف ايامك واكون سند ليك زي ما كنت سند وضهر ليا.
+في عيد ميلادك انا بتمنالك عمر كله فرحه وراحة بال ونجاح وربنا يبعد عنك كل وجع وكل حاجه وحد يضايق قلبك ويقدرني اني افضل سبب في ضحكتك وسعادتك.
+بحبك اوي بحبك بكل تفاصيلك وبكل حاجه فيك مهما كانت هي ايه وبحب كل ذكرى بينا حتى الحاجات الصعبة ال عدينا بيها لأنها جزء من حكايتنا ال انا فخوره اننا مكملين فيها سوا.
+كل سنة وانت حبيبي واماني واقرب انسان لقلبي وكل سنه واحنا مع بعض وكل سنة واحنا بنختار بعض ونتمسك ببعض ونحب بعض اكتر ويارب افضل احتفل بيك كل سنة وانت ف حضني وف حياتي وما يحرمنيش منك ابدا ينور عيني.
+عيد ميلاد سعيد يا حته من قلبي بحبك اكتر من كل الكلام اللي اتقال وال ممكن يتقال واكتر مما تتخيل وهفضل احبك عمري كلو عشان انا مش عاوزه غيرك من الدنيا وخليك عارف اني دايما فخوره بيك وفخوره اني معاك وفخوره بكل حاجه انت بتعملها ومقدراها وحفظاها فقلبي كويس اوي.
+
+
+<br>
+<span class="last">بحبك اوي يمحمد♥️.</span>
+        </p>
+
+        <span class="message-signature">
+        محمد ♡ ساندي
+        </span>
+      </div>
+
+    </section>
+
+
+    <!-- Music controls -->
+    <section class="music-section" id="musicSection">
+      <audio id="birthdayMusic" src="birthdayMusic.mp3" loop preload="none"></audio>
+
+      <button class="music-button" id="musicButton" type="button"
+              aria-pressed="false">
+        <span class="music-icon" id="musicIcon" aria-hidden="true">♫</span>
+        <span id="musicButtonText"
+              data-ar="شغّل موسيقى الذكريات"
+              data-en="PLAY THE MUSIC">
+          شغّل موسيقى الذكريات
+        </span>
+      </button>
+
+      <p class="music-note"
+         data-ar="اختياري — شغّل الموسيقى وقت ما تحب"
+         data-en="OPTIONAL — PLAY IT WHENEVER YOU LIKE">
+        اختياري — شغّل الموسيقى وقت ما تحب
+      </p>
+    </section>
+
+
+    <!-- Custom order -->
+    
+
+    <footer class="site-footer">
+      <span class="footer-made">made with       
+        <a href="https://mohvmed-imvm.github.io/4U-celebration/"
+         class="footer-brand">4U</a>
+      </span>
+    </footer>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
